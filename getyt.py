@@ -35,7 +35,6 @@ def download_playlist(url, output_path="."):
         'embed_metadata': True,
         'embed_thumbnail': True,
     }
-
     try:
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
             print(f"\n📥 Downloading: {url}")
