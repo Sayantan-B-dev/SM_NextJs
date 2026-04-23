@@ -1,0 +1,8 @@
+# Ignore course download folder
+Chai aur full stack NextJS/
+
+# Ignore tree script outputs
+tree.txt
+
+# Ignore tree script itself (optional)
+tree.py
