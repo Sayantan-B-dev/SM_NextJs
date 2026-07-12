@@ -1,1 +1,0 @@
-# SSR Dynamic rendering

@@ -1,0 +1,22 @@
+// Prisma schema for SQLite demo database.
+// After modifying this file, run:
+//   npx prisma generate   (regenerates Prisma Client)
+//   npx prisma migrate dev --name init   (creates/updates the database)
+//
+// Datasource: SQLite (no external DB needed, file stored at prisma/dev.db)
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Post {
+  id        Int      @id @default(autoincrement())
+  title     String
+  content   String
+  createdAt DateTime @default(now())
+}
