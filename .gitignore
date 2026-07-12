@@ -49,6 +49,13 @@ node_modules/
 out/
 package-lock.json
 
+# NCT tooling artifacts (any depth)
+.nct/
+*.nct
+
+# Cache directories
+.cache/
+
 # Python
 __pycache__/
 *.pyc
@@ -56,3 +63,6 @@ __pycache__/
 
 # Raw transcript files (already processed into MD docs)
 NextJS_15_Tutorial/transcripts/
+
+# Old demo app replaced by course-hub
+first-app/
