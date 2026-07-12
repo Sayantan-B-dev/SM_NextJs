@@ -1,17 +1,8 @@
-# Ignore course download folder
-Chai aur full stack NextJS/
-
-# Ignore tree script outputs
-tree.txt
-
-# Ignore tree script itself (optional)
-tree.py
-
-# === Next.js specific ===
 # dependencies
 /node_modules
 /.pnp
 .pnp.js
+.yarn/install-state.gz
 
 # testing
 /coverage
@@ -34,7 +25,6 @@ yarn-error.log*
 
 # local env files
 .env*.local
-.env
 
 # vercel
 .vercel
@@ -42,9 +32,3 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
-
-# Nested course task projects (match at any depth)
-node_modules/
-.next/
-out/
-package-lock.json
