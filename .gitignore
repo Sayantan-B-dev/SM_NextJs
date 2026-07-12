@@ -48,3 +48,11 @@ node_modules/
 .next/
 out/
 package-lock.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Raw transcript files (already processed into MD docs)
+NextJS_15_Tutorial/transcripts/
